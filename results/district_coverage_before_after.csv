@@ -1,0 +1,15 @@
+neighbourhood_cleansed,n_rows_raw,n_rows_fixed
+Yau Tsim Mong,1932,2308
+Wan Chai,326,408
+Islands,248,342
+Central & Western,207,311
+Sham Shui Po,38,50
+Eastern,22,46
+Sai Kung,29,39
+Kowloon City,22,36
+Yuen Long,12,21
+Wong Tai Sin,17,21
+Southern,5,9
+Kwun Tong,7,8
+Sha Tin,3,7
+(missing / unmerged),746,0

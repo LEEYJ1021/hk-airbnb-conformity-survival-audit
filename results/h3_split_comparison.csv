@@ -1,0 +1,4 @@
+method,tourist_core_n,non_tourist_n
+as reported in paper (unverifiable),188,129
+"raw district, no repair (early window, non-null only)",342,58
+"repaired district (this pipeline, full H1 covariate sample)",299,50
