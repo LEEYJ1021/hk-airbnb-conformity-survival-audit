@@ -1,0 +1,5 @@
+variable,mean,sd,min,max,n
+fit_init (sem_distance),0.312,0.146,0.041,0.812,317
+variability_init (sem_std),0.087,0.052,0.006,0.294,317
+lifetime_quarters_first_spell,9.4,5.1,1,18,317
+exit_rate_per_listing_quarter_full_sample_pct,6.1,,,,3614
