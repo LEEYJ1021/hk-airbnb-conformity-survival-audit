@@ -1,5 +1,21 @@
 # Limitations of this re-audit
 
+> **Cross-reference note (added when the manuscript was scoped to H1/H2 only).**
+> The manuscript currently in preparation, *"Convergence Without Divergence,"*
+> restates item 1 (`sem_distance` provenance) and item 4 (first-spell restriction)
+> below as its own "Boundary Conditions and Directions for Future Research"
+> (Section 8), reframed there as a forward-looking research agenda rather than as
+> unresolved problems. Items 2 (SAR model), 3 (`dataset_0322.xlsx`), 5
+> (quarter-count discrepancy), and the H3 split-instability finding referenced in
+> item 6 are **not** restated in the manuscript — Section 8 mentions only, in
+> passing, that the panel does not support a spatial extension. The full
+> diagnostic trail for *why* H3 and the SAR model fail — the actual subgroup
+> coefficients, the split-sensitivity check across three district-handling rules
+> (Figure S1), the district-imbalance numbers — lives only here. Read this file
+> as the superset of the manuscript's Section 8: everything load-bearing in the
+> manuscript traces back to a point below, but not everything below made it into
+> the manuscript.
+
 This document lists, in one place, everything this repository does and does
 not resolve about the data and results it works with. It is meant to be read
 alongside the main README, not as a replacement for it. Nothing here should
@@ -117,3 +133,12 @@ original manuscript after the district-merge defect is repaired. H3 does
 not survive the repair. The SAR/spatial model is not re-estimable as
 specified. Anyone using this repository as a basis for further work should
 treat items 1–5 above as prerequisites to resolve, not footnotes to skip.
+
+---
+
+*See `figures/supplementary/fig_s1_h3_subgroup_and_split_sensitivity.png` for
+the H3 subgroup coefficients and the three-way split-composition comparison
+("as reported in paper" 188/129 vs. "raw district, no repair" 342/58 vs.
+"repaired district, this pipeline" 299/50) referenced in item 6 above and in
+the README's H3 row. This figure is not reproduced anywhere in the
+manuscript.*
