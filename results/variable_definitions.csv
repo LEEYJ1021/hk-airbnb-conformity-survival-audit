@@ -1,0 +1,8 @@
+variable,definition,level,source_construction
+sem_distance,SBERT-derived semantic distance between a listing's self-presentation and prevailing local-market language,listing-quarter,"Provided in source panel; original aggregation procedure not reconstructable from released embedding columns (see docs/LIMITATIONS.md, item 1)"
+fit_init,Mean sem_distance over a listing's first four quarters,listing,derived
+variability_init,Mean rolling SD of sem_distance (sem_std) over the same four-quarter window,listing,derived
+pos_step / neg_step,"Signed quarter-on-quarter change in sem_distance, rolled over trailing 2-8Q windows, z-scored within window, lagged one quarter",listing-quarter,derived
+Lifetime,Number of consecutive quarters in a listing's first continuous panel spell,listing,derived
+Exit,Binary indicator of listing exit in quarter t, first-spell restricted,listing-quarter,derived
+District,Administrative district assignment (time-invariant per listing),listing,"Repaired via within-listing forward/backward fill (see src/01_fix_district.py, results/district_repair_diagnostics.csv)"
